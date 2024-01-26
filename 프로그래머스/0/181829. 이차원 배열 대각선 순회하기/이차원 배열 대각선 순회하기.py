@@ -5,7 +5,7 @@ def solution(board, k):
 
     for i in range(row_len):
         for j in range(col_len):
-            if i + j <= k and i < row_len and j < col_len:
+            if i + j <= k :
                 answer += board[i][j]
 
     return answer
